@@ -27,3 +27,5 @@ async function createTable(){
     console.log("Table Created Successfully");
 
 }
+
+createTable();

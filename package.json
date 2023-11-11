@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "@types/pg": "^8.10.9",
     "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
