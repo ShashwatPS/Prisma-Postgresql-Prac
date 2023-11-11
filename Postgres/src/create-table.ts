@@ -5,7 +5,7 @@ async function createTable(){
     CREATE TABLE users (
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
-    email VARCHAR(30) NOT NULL,
+    email VARCHAR(30) NOT NULL
     );
     `;
 
@@ -18,7 +18,7 @@ async function createTable(){
     id SERIAL PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
     email VARCHAR(20) NOT NULL,
-    orders INT,
+    orders INT
     );
     `;
 

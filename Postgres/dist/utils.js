@@ -13,7 +13,7 @@ exports.getClient = void 0;
 const pg_1 = require("pg");
 function getClient() {
     return __awaiter(this, void 0, void 0, function* () {
-        const client = new pg_1.Client("postgres://fluxlfgv:z1QnzZmyd3bAzGkNxQWGAZ03BPmLifeE@tai.db.elephantsql.com/fluxlfgv");
+        const client = new pg_1.Client("postgres://xaelkdkt:d0gvhVuPHo49ZaxX2Pk-1OP9Tq0GjvmL@flora.db.elephantsql.com/xaelkdkt");
         yield client.connect();
         return client;
     });
